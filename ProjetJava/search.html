@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recherche de Films - Cinéma RGC</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="icon" href="icon.png">
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="navbar-brand">Espace Cine</a>
+    </div>
+  </nav>
+
+  <section class="search-hero">
+    <div class="search-container">
+      <h1 class="search-title">Rechercher un film</h1>
+      <div class="search-box">
+        <input type="text" 
+               id="search-input" 
+               placeholder="Entrez le titre d'un film..."
+               autocomplete="off">
+        <i class="fas fa-search search-icon"></i>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div id="search-results-info" class="search-results-info"></div>
+    <div class="row" id="search-results"></div>
+    <div id="loading" class="search-loading" style="display: none;">
+      <div class="loading-spinner"></div>
+    </div>
+  </section>
+
+  <script src="search.js"></script>
+</body>
+</html>
