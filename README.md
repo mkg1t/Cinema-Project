@@ -1,5 +1,5 @@
 # Cinema-Project
-Create a web application to allow customers to view available movies using the OMDb API.
+[Create a web application to allow customers to view available movies using the OMDb API.]
 Guide Utilisateur  
 Page d'accueil (index.html) :  
 Affiche une sélection de films tendances.  
